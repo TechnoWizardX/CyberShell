@@ -4,10 +4,10 @@ import QtQuick
 import Quickshell
 import Quickshell.Hyprland
 import Quickshell.Io
-import Caelestia
-import Caelestia.Config
-import Caelestia.Internal
-import qs.components.misc
+import CyberShell
+import CyberShell.Config
+import CyberShell.Internal
+import CyberShell.components.misc
 
 Singleton {
     id: root
@@ -89,9 +89,9 @@ Singleton {
 
     function reloadDynamicConfs(): void {
         if (usingLua) {
-            extras.batchMessage(['eval hl.bind("Caps_Lock", hl.dsp.global("caelestia:refreshDevices"), { locked = true, non_consuming = true, ignore_mods = true, release = true })', 'eval hl.bind("Num_Lock", hl.dsp.global("caelestia:refreshDevices"), { locked = true, non_consuming = true, ignore_mods = true, release = true })']);
+            extras.batchMessage(['eval hl.bind("Caps_Lock", hl.dsp.global("cybershell:refreshDevices"), { locked = true, non_consuming = true, ignore_mods = true, release = true })', 'eval hl.bind("Num_Lock", hl.dsp.global("cybershell:refreshDevices"), { locked = true, non_consuming = true, ignore_mods = true, release = true })']);
         } else {
-            extras.batchMessage(["keyword bindlni ,Caps_Lock,global,caelestia:refreshDevices", "keyword bindlni ,Num_Lock,global,caelestia:refreshDevices"]);
+            extras.batchMessage(["keyword bindlni ,Caps_Lock,global,cybershell:refreshDevices", "keyword bindlni ,Num_Lock,global,cybershell:refreshDevices"]);
         }
     }
 

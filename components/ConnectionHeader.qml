@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Layouts
-import Caelestia.Config
-import qs.components
+import CyberShell.Config
+import CyberShell.components
 
 ColumnLayout {
     id: root

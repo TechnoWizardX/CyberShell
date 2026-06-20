@@ -1,7 +1,7 @@
 pragma Singleton
 
 import QtQuick
-import qs.services
+import CyberShell.services
 
 /**
  * NetworkConnection
@@ -12,7 +12,7 @@ import qs.services
  *
  * Usage:
  * ```qml
- * import qs.utils
+ * import CyberShell.utils
  *
  * // With Session object (controlcenter)
  * NetworkConnection.handleConnect(network, session);

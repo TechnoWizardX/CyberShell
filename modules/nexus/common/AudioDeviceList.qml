@@ -4,10 +4,10 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Services.Pipewire
-import Caelestia.Config
-import qs.components
-import qs.services
-import qs.modules.nexus.common
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
+import CyberShell.modules.nexus.common
 
 ItemList {
     id: root

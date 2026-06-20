@@ -1,9 +1,9 @@
 import "cards"
 import QtQuick
 import QtQuick.Layouts
-import Caelestia.Config
-import qs.components
-import qs.modules.bar.popouts as BarPopouts
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.modules.bar.popouts as BarPopouts
 
 Item {
     id: root

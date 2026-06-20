@@ -2,8 +2,8 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import M3Shapes
-import qs.components
-import qs.services
+import CyberShell.components
+import CyberShell.services
 
 Item {
     id: root

@@ -3,10 +3,10 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import Quickshell
 import Quickshell.Services.Notifications
-import Caelestia
-import Caelestia.Config
-import qs.services
-import qs.utils
+import CyberShell
+import CyberShell.Config
+import CyberShell.services
+import CyberShell.utils
 
 QtObject {
     id: notif

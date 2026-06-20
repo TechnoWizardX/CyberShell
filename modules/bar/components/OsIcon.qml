@@ -1,9 +1,9 @@
 import QtQuick
-import Caelestia.Config
-import qs.components
-import qs.components.effects
-import qs.services
-import qs.utils
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.effects
+import CyberShell.services
+import CyberShell.utils
 
 Item {
     id: root
@@ -23,11 +23,11 @@ Item {
     Loader {
         asynchronous: true
         anchors.centerIn: parent
-        sourceComponent: SysInfo.isDefaultLogo ? caelestiaLogo : distroIcon
+        sourceComponent: SysInfo.isDefaultLogo ? cyberLogo : distroIcon
     }
 
     Component {
-        id: caelestiaLogo
+        id: cyberLogo
 
         Logo {
             implicitWidth: Math.round(Tokens.font.body.large.pointSize * 1.6)

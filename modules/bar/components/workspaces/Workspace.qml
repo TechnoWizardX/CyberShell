@@ -3,10 +3,10 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Layouts
 import Quickshell
-import Caelestia.Config
-import qs.components
-import qs.services
-import qs.utils
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
+import CyberShell.utils
 
 ColumnLayout {
     id: root

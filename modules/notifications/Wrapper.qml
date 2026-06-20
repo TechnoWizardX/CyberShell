@@ -1,5 +1,5 @@
 import QtQuick
-import qs.components
+import CyberShell.components
 
 Item {
     id: root

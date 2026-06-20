@@ -2,10 +2,10 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Services.Mpris
-import Caelestia.Config
-import qs.components
-import qs.components.controls
-import qs.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.controls
+import CyberShell.services
 
 Item {
     ColumnLayout {

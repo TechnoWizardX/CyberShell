@@ -3,12 +3,12 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Layouts
 import Quickshell.Bluetooth
-import Caelestia.Components
-import Caelestia.Config
-import qs.components
-import qs.components.controls
-import qs.services
-import qs.modules.nexus.common
+import CyberShell.Components
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.controls
+import CyberShell.services
+import CyberShell.modules.nexus.common
 
 PageBase {
     id: root

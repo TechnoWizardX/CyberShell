@@ -1,11 +1,11 @@
 import QtQuick
 import QtQuick.Layouts
 import Quickshell
-import Caelestia.Config
-import qs.components
-import qs.services
-import qs.modules.drawers
-import qs.modules.nexus.common
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
+import CyberShell.modules.drawers
+import CyberShell.modules.nexus.common
 
 ConnectedRect {
     id: root

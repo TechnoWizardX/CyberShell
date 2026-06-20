@@ -3,8 +3,8 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Layouts
 import Quickshell
-import qs.components
-import qs.services
+import CyberShell.components
+import CyberShell.services
 
 LazyLoader {
     id: loader

@@ -3,9 +3,9 @@ pragma Singleton
 import QtQuick
 import Quickshell
 import Quickshell.Io
-import Caelestia
-import Caelestia.Config
-import qs.services
+import CyberShell
+import CyberShell.Config
+import CyberShell.services
 
 Singleton {
     id: root

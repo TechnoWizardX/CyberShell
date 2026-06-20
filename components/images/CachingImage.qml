@@ -1,6 +1,6 @@
 import QtQuick
 import Quickshell
-import Caelestia.Images
+import CyberShell.Images
 
 Image {
     id: root

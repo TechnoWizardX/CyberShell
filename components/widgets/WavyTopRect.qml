@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Shapes
-import qs.components
-import qs.services
+import CyberShell.components
+import CyberShell.services
 
 Shape {
     id: root

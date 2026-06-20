@@ -1,6 +1,6 @@
 import QtQuick
 import Quickshell
-import qs.components
+import CyberShell.components
 
 Image {
     id: root

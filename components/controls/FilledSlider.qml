@@ -1,9 +1,9 @@
 import "../effects"
 import QtQuick
 import QtQuick.Templates
-import Caelestia.Config
-import qs.components
-import qs.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
 
 Slider {
     id: root

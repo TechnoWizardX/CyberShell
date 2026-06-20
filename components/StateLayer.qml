@@ -1,8 +1,8 @@
 import QtQuick
 import QtQuick.Shapes
-import Caelestia
-import Caelestia.Config
-import qs.services
+import CyberShell
+import CyberShell.Config
+import CyberShell.services
 
 MouseArea {
     id: root

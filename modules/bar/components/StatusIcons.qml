@@ -5,10 +5,10 @@ import QtQuick.Layouts
 import Quickshell
 import Quickshell.Bluetooth
 import Quickshell.Services.UPower
-import Caelestia.Config
-import qs.components
-import qs.services
-import qs.utils
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
+import CyberShell.utils
 
 StyledRect {
     id: root

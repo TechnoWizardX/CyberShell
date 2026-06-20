@@ -1,6 +1,6 @@
 import QtQuick
 import QtQuick.Shapes
-import qs.services
+import CyberShell.services
 
 Item {
     id: root

@@ -1,8 +1,8 @@
 import QtQuick
 import Quickshell
 import M3Shapes
-import qs.components
-import qs.services
+import CyberShell.components
+import CyberShell.services
 
 MaterialShape {
     id: root

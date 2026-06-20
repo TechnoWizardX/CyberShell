@@ -2,9 +2,9 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import Quickshell
-import Caelestia.Config
-import qs.components.containers
-import qs.modules.bar as Bar
+import CyberShell.Config
+import CyberShell.components.containers
+import CyberShell.modules.bar as Bar
 
 Scope {
     id: root

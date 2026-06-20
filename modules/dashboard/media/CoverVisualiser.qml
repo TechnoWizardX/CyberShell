@@ -4,11 +4,11 @@ import QtQuick
 import QtQuick.Shapes
 import Quickshell
 import M3Shapes
-import Caelestia.Config
-import Caelestia.Services
-import qs.components
-import qs.components.widgets
-import qs.services
+import CyberShell.Config
+import CyberShell.Services
+import CyberShell.components
+import CyberShell.components.widgets
+import CyberShell.services
 
 Item {
     id: root

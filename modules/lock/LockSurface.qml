@@ -3,9 +3,9 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Effects
 import Quickshell.Wayland
-import Caelestia.Config
-import qs.components
-import qs.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
 
 WlSessionLockSurface {
     id: root

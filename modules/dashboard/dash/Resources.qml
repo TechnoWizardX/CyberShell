@@ -1,10 +1,10 @@
 import QtQuick
 import QtQuick.Layouts
-import Caelestia.Config
-import Caelestia.Services
-import qs.components
-import qs.components.controls
-import qs.services
+import CyberShell.Config
+import CyberShell.Services
+import CyberShell.components
+import CyberShell.components.controls
+import CyberShell.services
 
 Item {
     id: root

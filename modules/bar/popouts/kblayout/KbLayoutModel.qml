@@ -2,8 +2,8 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import Quickshell.Io
-import Caelestia
-import Caelestia.Config
+import CyberShell
+import CyberShell.Config
 
 // TODO: handle this better later
 

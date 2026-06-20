@@ -1,9 +1,9 @@
 import QtQuick
 import QtQuick.Controls
-import Caelestia.Config
-import qs.components
-import qs.components.effects
-import qs.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.effects
+import CyberShell.services
 
 Popup {
     id: root

@@ -4,8 +4,8 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import Quickshell
 import Quickshell.Io
-import Caelestia.Config
-import qs.components.misc
+import CyberShell.Config
+import CyberShell.components.misc
 
 Singleton {
     id: root

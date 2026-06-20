@@ -1,8 +1,8 @@
 import QtQuick
-import Caelestia.Config
-import qs.components
-import qs.services
-import qs.modules.launcher.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
+import CyberShell.modules.launcher.services
 
 Item {
     id: root

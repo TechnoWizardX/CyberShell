@@ -4,9 +4,9 @@ import QtQuick
 import QtQuick.Controls
 import Quickshell
 import Quickshell.Widgets
-import Caelestia.Config
-import qs.components
-import qs.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
 
 StackView {
     id: root

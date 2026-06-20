@@ -3,11 +3,11 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Layouts
 import Quickshell
-import Caelestia.Config
-import qs.components
-import qs.components.effects
-import qs.services
-import qs.modules.drawers
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.effects
+import CyberShell.services
+import CyberShell.modules.drawers
 
 MouseArea {
     id: root

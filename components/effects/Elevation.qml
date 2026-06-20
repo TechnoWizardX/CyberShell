@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Effects
-import qs.components
-import qs.services
+import CyberShell.components
+import CyberShell.services
 
 RectangularShadow {
     property int level

@@ -1,12 +1,12 @@
 import QtQuick
 import QtQuick.Layouts
 import Quickshell
-import Caelestia.Components
-import Caelestia.Config
-import qs.components
-import qs.components.controls
-import qs.components.images
-import qs.services
+import CyberShell.Components
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.controls
+import CyberShell.components.images
+import CyberShell.services
 
 StyledClippingRect {
     id: root

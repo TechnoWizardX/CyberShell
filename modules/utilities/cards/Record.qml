@@ -2,11 +2,11 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import QtQuick.Layouts
-import Caelestia.Components
-import Caelestia.Config
-import qs.components
-import qs.components.controls
-import qs.services
+import CyberShell.Components
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.controls
+import CyberShell.services
 
 StyledRect {
     id: root

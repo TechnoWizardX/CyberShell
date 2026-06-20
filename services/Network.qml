@@ -3,7 +3,7 @@ pragma Singleton
 import QtQuick
 import Quickshell
 import Quickshell.Io
-import qs.services
+import CyberShell.services
 
 Singleton {
     id: root

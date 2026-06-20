@@ -3,12 +3,12 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Layouts
 import Quickshell.Services.UPower
-import Caelestia
-import Caelestia.Config
-import qs.components
-import qs.components.effects
-import qs.services
-import qs.utils
+import CyberShell
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.effects
+import CyberShell.services
+import CyberShell.utils
 
 StyledRect {
     id: root
@@ -53,7 +53,7 @@ StyledRect {
 
             MonoText {
                 Layout.fillWidth: true
-                text: "caelestiafetch.sh"
+                text: "cybershell-fetch.sh"
                 elide: Text.ElideRight
             }
 
@@ -63,7 +63,7 @@ StyledRect {
                 Layout.preferredHeight: 0
                 active: !iconLoader.active
 
-                sourceComponent: SysInfo.isDefaultLogo ? caelestiaLogo : distroIcon
+                sourceComponent: SysInfo.isDefaultLogo ? cyberLogo : distroIcon
             }
         }
 
@@ -78,7 +78,7 @@ StyledRect {
                 Layout.fillHeight: true
                 active: root.width > Tokens.sizes.lock.largeLogoWidth
 
-                sourceComponent: SysInfo.isDefaultLogo ? caelestiaLogo : distroIcon
+                sourceComponent: SysInfo.isDefaultLogo ? cyberLogo : distroIcon
             }
 
             ColumnLayout {
@@ -150,7 +150,7 @@ StyledRect {
     }
 
     Component {
-        id: caelestiaLogo
+        id: cyberLogo
 
         Logo {
             width: height

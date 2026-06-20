@@ -1,8 +1,8 @@
 pragma ComponentBehavior: Bound
 
 import QtQuick.Layouts
-import Caelestia.Config
-import qs.modules.nexus.common
+import CyberShell.Config
+import CyberShell.modules.nexus.common
 
 PageBase {
     id: root

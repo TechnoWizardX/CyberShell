@@ -2,10 +2,10 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import Quickshell
-import Caelestia.Config
-import qs.components
-import qs.utils
-import qs.modules.bar.popouts as BarPopouts
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.utils
+import CyberShell.modules.bar.popouts as BarPopouts
 
 Item {
     id: root

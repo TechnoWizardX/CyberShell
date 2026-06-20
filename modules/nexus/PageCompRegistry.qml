@@ -2,18 +2,18 @@ pragma Singleton
 
 import QtQuick
 import QtQuick.Layouts
-import Caelestia.Config
-import qs.components
-import qs.services
-import qs.modules.nexus.common
-import qs.modules.nexus.pages
-import qs.modules.nexus.pages.apps
-import qs.modules.nexus.pages.audio
-import qs.modules.nexus.pages.bluetooth
-import qs.modules.nexus.pages.panels
-import qs.modules.nexus.pages.services
-import qs.modules.nexus.pages.wallandstyle
-import qs.modules.nexus.pages.panels.taskbar
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
+import CyberShell.modules.nexus.common
+import CyberShell.modules.nexus.pages
+import CyberShell.modules.nexus.pages.apps
+import CyberShell.modules.nexus.pages.audio
+import CyberShell.modules.nexus.pages.bluetooth
+import CyberShell.modules.nexus.pages.panels
+import CyberShell.modules.nexus.pages.services
+import CyberShell.modules.nexus.pages.wallandstyle
+import CyberShell.modules.nexus.pages.panels.taskbar
 
 QtObject {
     id: root

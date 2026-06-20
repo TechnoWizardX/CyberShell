@@ -4,10 +4,10 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import Quickshell
 import Quickshell.Io
-import Caelestia
-import Caelestia.Config
-import qs.services
-import qs.utils
+import CyberShell
+import CyberShell.Config
+import CyberShell.services
+import CyberShell.utils
 
 Singleton {
     id: root
@@ -79,15 +79,15 @@ Singleton {
     }
 
     function setMode(mode: string): void {
-        Quickshell.execDetached(["caelestia", "scheme", "set", "--notify", "-m", mode]);
+        Quickshell.execDetached(["cyber", "scheme", "set", "--notify", "-m", mode]);
     }
 
     function reloadHyprRules(): void {
         if (Hypr.usingLua) {
-            const rule = `eval hl.layer_rule({ match = { namespace = "caelestia-drawers" }, %1 })`;
+            const rule = `eval hl.layer_rule({ match = { namespace = "cybershell-drawers" }, %1 })`;
             Hypr.extras.batchMessage([rule.arg(`blur = ${transparency.enabled}`), rule.arg(`ignore_alpha = ${transparency.base - 0.03}`)]);
         } else {
-            const str = "keyword layerrule %1 %2, match:namespace caelestia-drawers";
+            const str = "keyword layerrule %1 %2, match:namespace cybershell-drawers";
             Hypr.extras.batchMessage([str.arg("blur").arg(transparency.enabled ? 1 : 0), str.arg("ignore_alpha").arg(transparency.base - 0.03)]);
         }
     }

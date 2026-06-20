@@ -1,11 +1,11 @@
 import QtQuick
 import QtQuick.Controls
 import Quickshell
-import Caelestia.Config
-import qs.components
-import qs.components.controls
-import qs.modules.bar as Bar
-import qs.modules.bar.popouts as BarPopouts
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.controls
+import CyberShell.modules.bar as Bar
+import CyberShell.modules.bar.popouts as BarPopouts
 
 CustomMouseArea {
     id: root

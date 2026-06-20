@@ -1,9 +1,9 @@
 pragma Singleton
 
 import Quickshell
-import Caelestia
-import Caelestia.Config
-import qs.utils
+import CyberShell
+import CyberShell.Config
+import CyberShell.utils
 
 Searcher {
     id: root

@@ -2,9 +2,9 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import QtQuick.Controls
-import Caelestia.Config
-import qs.components
-import qs.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
 
 TextField {
     id: root

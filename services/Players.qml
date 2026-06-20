@@ -4,9 +4,9 @@ import QtQml
 import Quickshell
 import Quickshell.Io
 import Quickshell.Services.Mpris
-import Caelestia
-import Caelestia.Config
-import qs.components.misc
+import CyberShell
+import CyberShell.Config
+import CyberShell.components.misc
 
 Singleton {
     id: root

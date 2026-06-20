@@ -1,5 +1,5 @@
 import QtQuick
-import Caelestia.Config
+import CyberShell.Config
 
 NumberAnimation {
     enum Type {

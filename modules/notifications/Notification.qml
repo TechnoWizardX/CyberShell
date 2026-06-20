@@ -4,13 +4,13 @@ import QtQuick
 import QtQuick.Shapes
 import Quickshell
 import Quickshell.Services.Notifications
-import Caelestia.Components
-import Caelestia.Config
-import qs.components
-import qs.components.controls
-import qs.components.effects
-import qs.services
-import qs.utils
+import CyberShell.Components
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.controls
+import CyberShell.components.effects
+import CyberShell.services
+import CyberShell.utils
 
 StyledRect {
     id: root

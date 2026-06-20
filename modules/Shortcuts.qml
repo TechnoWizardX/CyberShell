@@ -1,10 +1,10 @@
 import QtQuick
 import Quickshell
 import Quickshell.Io
-import Caelestia
-import qs.components.misc
-import qs.services
-import qs.modules.nexus
+import CyberShell
+import CyberShell.components.misc
+import CyberShell.services
+import CyberShell.modules.nexus
 
 Scope {
     id: root
@@ -159,7 +159,7 @@ Scope {
     LoggingCategory {
         id: lc
 
-        name: "caelestia.qml.shortcuts"
+        name: "cybershell.qml.shortcuts"
         defaultLogLevel: LoggingCategory.Info
     }
 }

@@ -2,12 +2,12 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import QtQuick.Layouts
-import Caelestia.Config
-import qs.components
-import qs.components.containers
-import qs.components.controls
-import qs.services
-import qs.modules.nexus
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.containers
+import CyberShell.components.controls
+import CyberShell.services
+import CyberShell.modules.nexus
 
 ColumnLayout {
     id: root

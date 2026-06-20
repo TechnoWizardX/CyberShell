@@ -2,9 +2,9 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import Quickshell.Services.UPower
-import Caelestia.Config
-import qs.components
-import qs.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
 
 Column {
     id: root

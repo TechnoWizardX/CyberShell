@@ -1,9 +1,9 @@
 import QtQuick
 import QtQuick.Templates
-import Caelestia.Config
-import Caelestia.Internal
-import qs.components
-import qs.services
+import CyberShell.Config
+import CyberShell.Internal
+import CyberShell.components
+import CyberShell.services
 
 BusyIndicator {
     id: root

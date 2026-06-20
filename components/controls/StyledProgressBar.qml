@@ -2,12 +2,12 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import QtQuick.Templates
-import Caelestia
-import Caelestia.Components
-import Caelestia.Config
-import Caelestia.Internal
-import qs.components
-import qs.services
+import CyberShell
+import CyberShell.Components
+import CyberShell.Config
+import CyberShell.Internal
+import CyberShell.components
+import CyberShell.services
 
 ProgressBar {
     id: root

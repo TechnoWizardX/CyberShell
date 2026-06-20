@@ -3,8 +3,8 @@ pragma Singleton
 import ".."
 import QtQuick
 import Quickshell
-import Caelestia.Config
-import qs.utils
+import CyberShell.Config
+import CyberShell.utils
 
 Searcher {
     id: root
@@ -79,7 +79,7 @@ Searcher {
 
         function onClicked(list: AppList): void {
             list.visibilities.launcher = false;
-            Quickshell.execDetached(["caelestia", "scheme", "set", "-v", variant]);
+            Quickshell.execDetached(["cyber", "scheme", "set", "-v", variant]);
         }
     }
 }

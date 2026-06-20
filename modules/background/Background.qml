@@ -3,10 +3,10 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import Quickshell
 import Quickshell.Wayland
-import Caelestia.Config
-import qs.components
-import qs.components.containers
-import qs.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.containers
+import CyberShell.services
 
 Variants {
     model: Screens.screens.filter(s => GlobalConfig.forScreen(s.name).background.enabled)

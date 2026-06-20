@@ -1,6 +1,6 @@
 import QtQuick
 import QtQuick.Effects
-import qs.components
+import CyberShell.components
 
 MultiEffect {
     property color sourceColor: "black"

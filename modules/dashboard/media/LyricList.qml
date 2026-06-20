@@ -3,13 +3,13 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Effects
 import QtQuick.Layouts
-import Caelestia.Config
-import Caelestia.Services
-import qs.components
-import qs.components.containers
-import qs.components.controls
-import qs.components.effects
-import qs.services
+import CyberShell.Config
+import CyberShell.Services
+import CyberShell.components
+import CyberShell.components.containers
+import CyberShell.components.controls
+import CyberShell.components.effects
+import CyberShell.services
 
 Item {
     id: root

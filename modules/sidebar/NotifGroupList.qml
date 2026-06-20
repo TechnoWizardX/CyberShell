@@ -2,10 +2,10 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import Quickshell
-import Caelestia.Components
-import Caelestia.Config
-import qs.components
-import qs.services
+import CyberShell.Components
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
 
 LazyListView {
     id: root

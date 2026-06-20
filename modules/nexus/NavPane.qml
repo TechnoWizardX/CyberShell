@@ -1,8 +1,8 @@
 import "navpane"
 import QtQuick
 import QtQuick.Layouts
-import Caelestia.Config
-import qs.modules.nexus
+import CyberShell.Config
+import CyberShell.modules.nexus
 
 ColumnLayout {
     id: root

@@ -2,10 +2,10 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell.Wayland
 import Quickshell.Widgets
-import Caelestia.Config
-import qs.components
-import qs.services
-import qs.utils
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
+import CyberShell.utils
 
 Item {
     id: root

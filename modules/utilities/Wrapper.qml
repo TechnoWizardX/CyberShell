@@ -2,11 +2,11 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import Quickshell
-import Caelestia
-import Caelestia.Config
-import qs.components
-import qs.modules.sidebar as Sidebar
-import qs.modules.bar.popouts as BarPopouts
+import CyberShell
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.modules.sidebar as Sidebar
+import CyberShell.modules.bar.popouts as BarPopouts
 
 Item {
     id: root

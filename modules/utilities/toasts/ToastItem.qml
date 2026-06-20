@@ -1,10 +1,10 @@
 import QtQuick
 import QtQuick.Layouts
-import Caelestia
-import Caelestia.Config
-import qs.components
-import qs.components.effects
-import qs.services
+import CyberShell
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.effects
+import CyberShell.services
 
 StyledRect {
     id: root

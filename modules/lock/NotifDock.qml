@@ -4,12 +4,12 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Widgets
-import Caelestia.Config
-import qs.components
-import qs.components.containers
-import qs.components.effects
-import qs.services
-import qs.utils
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.containers
+import CyberShell.components.effects
+import CyberShell.services
+import CyberShell.utils
 
 ColumnLayout {
     id: root

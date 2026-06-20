@@ -2,10 +2,10 @@ import "performance"
 import QtQuick
 import QtQuick.Layouts
 import Quickshell.Services.UPower
-import Caelestia.Config
-import Caelestia.Services
-import qs.components
-import qs.services
+import CyberShell.Config
+import CyberShell.Services
+import CyberShell.components
+import CyberShell.services
 
 Item {
     id: root

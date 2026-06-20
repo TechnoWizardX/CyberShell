@@ -6,12 +6,12 @@ import QtQuick.Effects
 import Quickshell
 import Quickshell.Hyprland
 import Quickshell.Wayland
-import Caelestia.Blobs
-import Caelestia.Config
-import qs.components
-import qs.components.containers
-import qs.services
-import qs.modules.bar
+import CyberShell.Blobs
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.containers
+import CyberShell.services
+import CyberShell.modules.bar
 
 StyledWindow {
     id: root

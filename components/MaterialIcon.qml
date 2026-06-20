@@ -1,6 +1,6 @@
 import QtQuick
-import Caelestia.Config
-import qs.services
+import CyberShell.Config
+import CyberShell.services
 
 StyledText {
     property real fill

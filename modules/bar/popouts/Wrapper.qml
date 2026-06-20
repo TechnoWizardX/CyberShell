@@ -4,11 +4,11 @@ import QtQuick
 import Quickshell
 import Quickshell.Hyprland
 import Quickshell.Wayland
-import Caelestia.Config
-import qs.components
-import qs.services
-import qs.modules.nexus
-import qs.modules.windowinfo
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.services
+import CyberShell.modules.nexus
+import CyberShell.modules.windowinfo
 
 Item {
     id: root

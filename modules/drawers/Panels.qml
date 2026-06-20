@@ -1,17 +1,17 @@
 import QtQuick
 import Quickshell
-import Caelestia.Config
-import qs.components
-import qs.modules.bar as Bar
-import qs.modules.dashboard as Dashboard
-import qs.modules.launcher as Launcher
-import qs.modules.notifications as Notifications
-import qs.modules.osd as Osd
-import qs.modules.session as Session
-import qs.modules.sidebar as Sidebar
-import qs.modules.utilities as Utilities
-import qs.modules.bar.popouts as BarPopouts
-import qs.modules.utilities.toasts as Toasts
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.modules.bar as Bar
+import CyberShell.modules.dashboard as Dashboard
+import CyberShell.modules.launcher as Launcher
+import CyberShell.modules.notifications as Notifications
+import CyberShell.modules.osd as Osd
+import CyberShell.modules.session as Session
+import CyberShell.modules.sidebar as Sidebar
+import CyberShell.modules.utilities as Utilities
+import CyberShell.modules.bar.popouts as BarPopouts
+import CyberShell.modules.utilities.toasts as Toasts
 
 Item {
     id: root

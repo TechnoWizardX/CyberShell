@@ -1,7 +1,7 @@
 import QtQuick
-import Caelestia.Config
-import qs.components
-import qs.modules.nexus
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.modules.nexus
 
 Item {
     id: root

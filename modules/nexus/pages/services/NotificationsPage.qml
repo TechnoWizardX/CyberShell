@@ -1,8 +1,8 @@
 import QtQuick
 import QtQuick.Layouts
-import Caelestia.Config
-import qs.components.controls
-import qs.modules.nexus.common
+import CyberShell.Config
+import CyberShell.components.controls
+import CyberShell.modules.nexus.common
 
 PageBase {
     id: root

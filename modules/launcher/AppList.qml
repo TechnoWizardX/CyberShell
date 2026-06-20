@@ -2,13 +2,13 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import Quickshell
-import Caelestia.Config
-import qs.components
-import qs.components.containers
-import qs.components.controls
-import qs.services
-import qs.modules.launcher.items
-import qs.modules.launcher.services
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.containers
+import CyberShell.components.controls
+import CyberShell.services
+import CyberShell.modules.launcher.items
+import CyberShell.modules.launcher.services
 
 StyledListView {
     id: root

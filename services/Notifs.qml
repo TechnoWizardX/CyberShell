@@ -5,11 +5,11 @@ import QtQuick
 import Quickshell
 import Quickshell.Io
 import Quickshell.Services.Notifications
-import Caelestia
-import Caelestia.Config
-import qs.components.misc
-import qs.services
-import qs.utils
+import CyberShell
+import CyberShell.Config
+import CyberShell.components.misc
+import CyberShell.services
+import CyberShell.utils
 
 Singleton {
     id: root

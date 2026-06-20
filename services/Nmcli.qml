@@ -1290,7 +1290,7 @@ Singleton {
     LoggingCategory {
         id: lc
 
-        name: "caelestia.qml.services.nmcli"
+        name: "cybershell.qml.services.nmcli"
         defaultLogLevel: LoggingCategory.Info
     }
 

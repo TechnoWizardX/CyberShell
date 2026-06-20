@@ -1,8 +1,8 @@
 pragma ComponentBehavior: Bound
 
 import QtQuick
-import qs.components
-import qs.components.effects
+import CyberShell.components
+import CyberShell.components.effects
 
 StyledFlickable {
     id: root

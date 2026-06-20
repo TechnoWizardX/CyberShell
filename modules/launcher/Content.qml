@@ -1,12 +1,12 @@
 pragma ComponentBehavior: Bound
 
 import QtQuick
-import Caelestia
-import Caelestia.Config
-import qs.components
-import qs.components.controls
-import qs.services
-import qs.modules.launcher.services
+import CyberShell
+import CyberShell.Config
+import CyberShell.components
+import CyberShell.components.controls
+import CyberShell.services
+import CyberShell.modules.launcher.services
 
 Item {
     id: root

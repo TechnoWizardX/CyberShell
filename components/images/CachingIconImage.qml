@@ -2,7 +2,7 @@ pragma ComponentBehavior: Bound
 
 import QtQuick
 import Quickshell.Widgets
-import qs.utils
+import CyberShell.utils
 
 Item {
     id: root
